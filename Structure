@@ -1,0 +1,9 @@
+BBLite_SUZE/
+├── index.html              ← Landing page with BBLite intro + navigation
+├── resume.html             ← Modular resume layout
+├── cover-letter.html       ← Tailored cover letter
+├── about.html              ← Narrative About Me
+├── faqs.html               ← HR-focused Q&A
+├── style.css               ← Purple-and-white branding styles
+├── script.js               ← Section toggling and interactivity
+├── README.md               ← Repo description and usage notes
