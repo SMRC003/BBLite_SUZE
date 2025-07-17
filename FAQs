@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>FAQs</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <section class="resume">
+    <h2>FAQs</h2>
+    <h3>Is this resume AI-generated?</h3>
+    <p>No — every word and layout was crafted by me. Business Buddy Lite is a guide I designed to enhance the experience.</p>
+    <h3>Can I view a traditional resume?</h3>
+    <pYes — the modular resume is available in PDF format upon request.</p>
+  </section>
+</body>
+</html>
