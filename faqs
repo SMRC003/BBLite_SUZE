@@ -73,4 +73,18 @@
     });
   </script>
 </body>
+<script>
+  document.querySelectorAll(".question").forEach((question) => {
+    question.addEventListener("click", function () {
+      const answer = this.nextElementSibling;
+      const isOpen = answer.style.display === "block";
+
+      // Close all answers before opening a new one
+      document.querySelectorAll(".answer").forEach((a) => (a.style.display = "none"));
+
+      // Toggle the current answer
+      answer.style.display = isOpen ? "none" : "block";
+    });
+  });
+</script>
 </html>
