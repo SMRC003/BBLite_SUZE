@@ -4,26 +4,73 @@
   <meta charset="UTF-8" />
   <title>FAQs – BBLite_SUZE</title>
   <link rel="stylesheet" href="style.css" />
+  <style>
+    .accordion-item {
+      border-bottom: 1px solid #ccc;
+      margin-bottom: 10px;
+      border-radius: 6px;
+      background: #fff;
+    }
+    .question {
+      background: #7b1fa2;
+      color: white;
+      padding: 1em;
+      cursor: pointer;
+      font-weight: bold;
+      border-radius: 6px 6px 0 0;
+    }
+    .answer {
+      padding: 1em;
+      display: none;
+      background: #f3e5f5;
+      border-radius: 0 0 6px 6px;
+      color: #4a148c;
+    }
+  </style>
 </head>
 <body>
   <section class="resume">
     <h2>Frequently Asked Questions</h2>
 
-    <h3>Is this resume AI-generated?</h3>
-    <p>No — every word and layout was crafted by Suzanne Church. BBLite_SUZE is a guide she designed to enhance clarity and engagement.</p>
+    <div class="accordion-item">
+      <div class="question">Is this resume AI-generated?</div>
+      <div class="answer">No — every word and layout was crafted by Suzanne Church. BBLite_SUZE is a guide she designed to enhance clarity and engagement.</div>
+    </div>
 
-    <h3>Can I view a traditional resume?</h3>
-    <p>Yes — the modular resume is available in PDF format upon request or via Dropbox link.</p>
+    <div class="accordion-item">
+      <div class="question">Can I view a traditional resume?</div>
+      <div class="answer">Yes — the modular resume is available in PDF format upon request or via Dropbox link.</div>
+    </div>
 
-    <h3>What is Business Buddy Lite?</h3>
-    <p>BBLite_SUZE is a branded assistant created by Suzanne to guide viewers through her resume experience. It’s not a chatbot — it’s a storytelling layer.</p>
+    <div class="accordion-item">
+      <div class="question">What is Business Buddy Lite?</div>
+      <div class="answer">BBLite_SUZE is a branded assistant created by Suzanne to guide viewers through her resume experience. It’s not a chatbot — it’s a storytelling layer.</div>
+    </div>
 
-    <h3>How does this system reflect Suzanne’s skills?</h3>
-    <p>It showcases her strengths in modular system design, user-centric logic, and strategic branding — all wrapped in a creative, interactive format.</p>
+    <div class="accordion-item">
+      <div class="question">How does this system reflect Suzanne’s skills?</div>
+      <div class="answer">It showcases her strengths in modular system design, user-centric logic, and strategic branding — all wrapped in a creative, interactive format.</div>
+    </div>
 
-    <h3>Can this system be adapted for other roles?</h3>
-    <p>Absolutely. Persona modes like Executive, Programmer, and Gamer are built into the system’s logic and can be toggled for tailored experiences.</p>
+    <div class="accordion-item">
+      <div class="question">Can this system be adapted for other roles?</div>
+      <div class="answer">Absolutely. Persona modes like Executive, Programmer, and Gamer are built into the system’s logic and can be toggled for tailored experiences.</div>
+    </div>
   </section>
+
+  <script>
+    document.querySelectorAll(".question").forEach((question) => {
+      question.addEventListener("click", function () {
+        const answer = this.nextElementSibling;
+        const isOpen = answer.style.display === "block";
+
+        // Close all answers before opening a new one
+        document.querySelectorAll(".answer").forEach((a) => (a.style.display = "none"));
+
+        // Toggle the current answer
+        answer.style.display = isOpen ? "none" : "block";
+      });
+    });
+  </script>
 </body>
 </html>
-accordion-style version next, with collapsible questions and JavaScript interactivity
