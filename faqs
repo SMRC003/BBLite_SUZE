@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8" />
-  <title>FAQs – BBLite_SUZE</title>
+  <title>faqs – BBLite_SUZE</title>
   <link rel="stylesheet" href="style.css" />
   <style>
     .accordion-item {
