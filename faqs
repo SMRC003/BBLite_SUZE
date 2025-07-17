@@ -2,16 +2,27 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8" />
-  <title>FAQs</title>
+  <title>FAQs – BBLite_SUZE</title>
   <link rel="stylesheet" href="style.css" />
 </head>
 <body>
   <section class="resume">
-    <h2>FAQs</h2>
+    <h2>Frequently Asked Questions</h2>
+
     <h3>Is this resume AI-generated?</h3>
-    <p>No — every word and layout was crafted by me. Business Buddy Lite is a guide I designed to enhance the experience.</p>
+    <p>No — every word and layout was crafted by Suzanne Church. BBLite_SUZE is a guide she designed to enhance clarity and engagement.</p>
+
     <h3>Can I view a traditional resume?</h3>
-    <pYes — the modular resume is available in PDF format upon request.</p>
+    <p>Yes — the modular resume is available in PDF format upon request or via Dropbox link.</p>
+
+    <h3>What is Business Buddy Lite?</h3>
+    <p>BBLite_SUZE is a branded assistant created by Suzanne to guide viewers through her resume experience. It’s not a chatbot — it’s a storytelling layer.</p>
+
+    <h3>How does this system reflect Suzanne’s skills?</h3>
+    <p>It showcases her strengths in modular system design, user-centric logic, and strategic branding — all wrapped in a creative, interactive format.</p>
+
+    <h3>Can this system be adapted for other roles?</h3>
+    <p>Absolutely. Persona modes like Executive, Programmer, and Gamer are built into the system’s logic and can be toggled for tailored experiences.</p>
   </section>
 </body>
 </html>
